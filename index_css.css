@@ -1,0 +1,66 @@
+body{
+  font-family: sans-serif,arial;
+  font-size: 20px;
+  min-width: 850px;
+  color: white;
+  background-image: url("backgroundimg.jpg");
+  border: 10px solid white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1{
+      text-align: right;
+}
+.table{
+      border:0;
+      width:85%;
+      text-align: center;
+      margin: 0 auto;
+}
+.title{
+  overflow: auto;
+}
+#titlehead{
+    font-size: 32px;
+}
+#subtitle{
+    font-size: 20px;
+}
+#pic1{
+  float: left;
+}
+#gsucs{
+  color: red;
+  font-weight: bold;
+  background-color: white;
+}
+#j1{
+  color: red;
+  font-weight: bold;
+    background-color: white;
+}
+#j2{
+  color: red;
+  font-weight: bold;
+  background-color: white;
+}
+#j3{
+  color: red;
+  font-weight: bold;
+    background-color: white;
+}
+tr:nth-child(even){
+  background-color: rgb(240, 220, 180);
+}
+a:link, a:active, a:visited {
+  color: #1122CC;
+  cursor: pointer;
+}
+a:hover{
+  background-color: yellow;
+  font-size: 30px;
+}
+div {
+  margin: 5px;
+  padding: 5px;
+}
